@@ -11,15 +11,6 @@ class PopplerOld < Formula
     regex(/href=.*?poppler[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
-  bottle do
-    sha256 armk64_monterey: "630ddfca6952fb9200d6f7d255e3614167f8da9d48b8083e892c12ccb523d417"
-    sha256 arm64_big_sur:  "c7a991bb704a7939bab2cc69c14639bf8c6afbd80347ce763083353e9471ea65"
-    sha256 monterey:       "78891dd5853bc4ac6ba0e7e7faf8fc4a47dc37f070d67f41cc40ecf4f38ebb56"
-    sha256 big_sur:        "bc72a9ee248165884e1e9194db2fdd75b2c5af5ca6ac2f2c72aad45f2f24d0b3"
-    sha256 catalina:       "ef3ec81699b9c2f29ac96da190d951b400106757a7d43e7e62f16b287e2d3a39"
-    sha256 x86_64_linux:   "7bf671efd31c38df1ca5c5cabb2f05a35b18d81169ddfe73504e4feb956d9c8d"
-  end
-
   depends_on "cmake" => :build
   depends_on "gobject-introspection" => :build
   depends_on "pkg-config" => :build
