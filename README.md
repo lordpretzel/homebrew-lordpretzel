@@ -1,5 +1,7 @@
 # Lordpretzel Lordpretzel
 
+Personal formulas for ease of installation
+
 ## How do I install these formulae?
 
 `brew install lordpretzel/lordpretzel/<formula>`
