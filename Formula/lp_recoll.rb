@@ -9,7 +9,7 @@ require 'formula'
 # Still a bit of work then, but I did not investigate, because the macports
 # version was an easier target.
 
-class Recoll < Formula
+class LpRecoll < Formula
   desc "Desktop search tool"
   homepage 'http://www.recoll.org'
   url 'http://www.recoll.org/recoll-1.29.2.tar.gz'
